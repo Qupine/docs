@@ -1,12 +1,12 @@
 name: ci
 
 on:
-  pull_request:
-    branches:
-      - '*'
-  push:
-    branches:
-      - '*'
+    pull_request:
+        branches:
+        - '*'
+    push:
+        branches:
+        - '*'
 
 jobs:
   lint-and-format:

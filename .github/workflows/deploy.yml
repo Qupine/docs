@@ -2,12 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
     push:
+        tags:
+            - 'v*'  
         branches:
-            - devops
-    pull_request:
-        branches:
-            - main
-            - devops
+            - 'main'
 
 jobs:
   build:

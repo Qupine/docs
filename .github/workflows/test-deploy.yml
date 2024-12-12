@@ -1,13 +1,9 @@
-name: Test deployment
+name: Test deployment to see whether the build is working
 
 on:
-    push:
-        branches:
-            - devops
     pull_request:
         branches:
-            - main
-            - devops
+            - '*'
 
 jobs:
   test-deploy:
