@@ -9,7 +9,7 @@ const config: Config = {
     favicon: 'img/favicon.ico',
 
     // Deployment Configurations
-    url: 'https://your-docusaurus-site.example.com',
+    url: 'https://docs.qupine.com',
     baseUrl: '/',
     organizationName: 'qupine',
     projectName: 'docs',
@@ -38,7 +38,7 @@ const config: Config = {
     ],
 
     themeConfig: {
-        image: '',
+        image: 'img/logo.png',
         navbar: {
             title: 'Qupine Docs',
             logo: {
