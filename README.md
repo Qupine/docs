@@ -2,6 +2,8 @@
 
 Your go-to guide for getting the most out of Qupine ✨.
 
+Check out the documentation [here](https://docs.qupine.com/).
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
