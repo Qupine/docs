@@ -38,7 +38,7 @@ const config: Config = {
     ],
 
     themeConfig: {
-        image: '',
+        image: 'img/logo.png',
         navbar: {
             title: 'Qupine Docs',
             logo: {
