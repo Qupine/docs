@@ -1,10 +1,13 @@
 name: Test deployment
 
 on:
-  pull_request:
-    branches:
-      - main
-      - devops
+    push:
+        branches:
+            - devops
+    pull_request:
+        branches:
+            - main
+            - devops
 jobs:
   test-deploy:
     name: Test deployment
