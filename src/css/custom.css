@@ -1,0 +1,57 @@
+:root {
+    --ifm-color-primary: #945fff;
+    --ifm-color-primary-dark: #845be3;
+    --ifm-color-primary-darker: #3d386c;
+    --ifm-color-primary-darkest: #030c24;
+    --ifm-color-primary-light: #945fff;
+    --ifm-color-primary-lighter: #f3e480;
+    --ifm-color-primary-lightest: #f56889;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(132, 91, 227, 0.1);
+
+    /* Additional custom colors */
+    --custom-light-purple: #945fff;
+    --custom-dark-blue: #030c24;
+    --custom-light-yellow: #f3e480;
+    --custom-darker-purple: #845be3;
+    --custom-darkest-purple: #3d386c;
+    --custom-gray: #d2d8df;
+    --custom-light-red: #f56889;
+    --custom-dark-background: #181818;
+}
+
+[data-theme='dark'] {
+    --ifm-color-primary: #845be3;
+    --ifm-color-primary-dark: #3d386c;
+    --ifm-color-primary-darker: #030c24;
+    --ifm-color-primary-darkest: #181818;
+    --ifm-color-primary-light: #945fff;
+    --ifm-color-primary-lighter: #f3e480;
+    --ifm-color-primary-lightest: #f56889;
+    --docusaurus-highlighted-code-line-bg: rgba(148, 95, 255, 0.3);
+
+    /* Dark theme custom colors */
+    --custom-light-purple: #845be3;
+    --custom-dark-blue: #030c24;
+    --custom-light-yellow: #f3e480;
+    --custom-darker-purple: #3d386c;
+    --custom-darkest-purple: #181818;
+    --custom-gray: #d2d8df;
+    --custom-light-red: #f56889;
+    --custom-dark-background: #030c24;
+}
+
+/* Additional styling to complement the color scheme */
+.markdown a {
+    color: var(--custom-light-purple);
+    transition: color 0.3s ease;
+}
+
+.markdown a:hover {
+    color: var(--custom-darker-purple);
+}
+
+/* Highlighted code line */
+.docusaurus-highlight-code-line {
+    background-color: rgba(148, 95, 255, 0.1);
+}
