@@ -10,7 +10,7 @@ const config: Config = {
 
     // Deployment Configurations
     url: 'https://your-docusaurus-site.example.com',
-    baseUrl: '/',
+    baseUrl: '/docs',
     organizationName: 'qupine',
     projectName: 'docs',
     deploymentBranch: 'main',
