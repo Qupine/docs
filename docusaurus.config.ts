@@ -9,8 +9,8 @@ const config: Config = {
     favicon: 'img/favicon.ico',
 
     // Deployment Configurations
-    url: 'https://your-docusaurus-site.example.com',
-    baseUrl: '/docs/',
+    url: 'https://docs.qupine.com',
+    baseUrl: '/',
     organizationName: 'qupine',
     projectName: 'docs',
     deploymentBranch: 'main',
