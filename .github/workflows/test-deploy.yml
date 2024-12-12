@@ -1,6 +1,9 @@
 name: Test deployment to see whether the build is working
 
 on:
+    push:
+        branches:
+            - '*'
     pull_request:
         branches:
             - '*'
