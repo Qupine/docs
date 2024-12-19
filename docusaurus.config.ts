@@ -21,6 +21,8 @@ const config: Config = {
         locales: ['en'],
     },
 
+    staticDirectories: ['static'],
+
     presets: [
         [
             'classic',
@@ -38,14 +40,21 @@ const config: Config = {
     ],
 
     themeConfig: {
-        image: 'img/logo.png',
+        image: 'img/logo.svg',
         navbar: {
             title: 'Qupine Docs',
             logo: {
                 alt: 'Qupine Logo',
-                src: 'img/logo.png',
+                src: 'img/logo.svg',
             },
         },
+
+        colorMode: {
+            defaultMode: 'dark',
+            disableSwitch: false,
+            respectPrefersColorScheme: true,
+        },
+
         footer: {
             style: 'dark',
             links: [
